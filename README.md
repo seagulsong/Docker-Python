@@ -63,3 +63,24 @@ ALLOWED_HOSTS = ['*']
 Note that this is not safe for production, but is good enough to get going for
 now.  For details see the [django docs on allowed
 hosts](https://docs.djangoproject.com/en/1.11/ref/settings/#allowed-hosts).
+
+# How to run python
+
+In order to follow along with the [Django Girls python tutorial](), you will
+need to fire up a python read-edit-print loop (REPL). You can do that in the
+"web" docker container that is part of the compose configuration using the
+following command:
+
+```
+docker-compose run web bash
+```
+
+That command will enter into the "web" container at the bash command line
+prompt.  Once there, you can simply type `python3` to start the python REPL.
+
+
+You can also do
+
+```
+docker-compose run web python3
+```
