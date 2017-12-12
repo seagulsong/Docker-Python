@@ -66,10 +66,10 @@ hosts](https://docs.djangoproject.com/en/1.11/ref/settings/#allowed-hosts).
 
 # How to run python
 
-In order to follow along with the [Django Girls python tutorial](), you will
-need to fire up a python read-edit-print loop (REPL). You can do that in the
-"web" docker container that is part of the compose configuration using the
-following command:
+In order to follow along with the [Django Girls python
+tutorial](http://tutorial.djangogirls.org/), you will need to fire up a python
+read-edit-print loop (REPL). You can do that in the "web" docker container that
+is part of the compose configuration using the following command:
 
 ```
 docker-compose run web bash
